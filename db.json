@@ -1,0 +1,330 @@
+{
+  "productos": [
+    {
+      "productName": "Almohada de Darth Vader",
+      "precio": "300",
+      "img": "https://i.imgur.com/fbuPISF.png",
+      "descripcion": "Es una almohada muy buena ",
+      "categoria": "starwars",
+      "id": "7ceh3akiqcghuir1cc4r"
+    },
+    {
+      "productName": "Yoda viejo tamaño real",
+      "precio": "2119",
+      "img": "https://i.imgur.com/wzL62on.png",
+      "descripcion": "Es un Yoda con el tamaño original, a escala real",
+      "categoria": "starwars",
+      "id": "n9dyl73x4hwc4en6ijo6"
+    },
+    {
+      "productName": "Baby Yoda muñeco",
+      "precio": "1300",
+      "img": "https://i.imgur.com/5e2FXMy.png",
+      "descripcion": "Baby yoda en forma de muñeco de plástico, de buena calidad",
+      "categoria": "starwars",
+      "id": "iieakidjr9l926nam0z6"
+    },
+    {
+      "productName": "Calcomanias de Star Wars",
+      "precio": "992",
+      "img": "https://i.imgur.com/m9gChyj.png",
+      "descripcion": "Calcomanias, pegatinas para todo tipo de superficie",
+      "categoria": "starwars",
+      "id": "6vk11p7mb2f8kg65plz2"
+    },
+    {
+      "productName": "Casco Darth Vader tamaño real",
+      "precio": "2039",
+      "img": "https://i.imgur.com/amsBWxn.jpeg",
+      "descripcion": "Casco Darth Vader ideal para los niños de la casa o en para poner en la mesa",
+      "categoria": "starwars",
+      "id": "5ti4dkb9uwgtkx9x999u"
+    },
+    {
+      "productName": "Casco de Soldado",
+      "precio": "1088",
+      "img": "https://i.imgur.com/PDV8tYQ.jpeg",
+      "descripcion": "Casco de Soldado blanco, muy resistente",
+      "categoria": "starwars",
+      "id": "zbby7q1xpnixa1x0f5q6"
+    },
+    {
+      "productName": "Muñeco de Chubaka",
+      "precio": "341",
+      "img": "https://i.imgur.com/f2dVZ5L.jpeg",
+      "descripcion": "Muñeco de chubaka hecho con materiales únicos, ideal para recuerdos",
+      "categoria": "starwars",
+      "id": "9bfz2v50hmnezolbl1jy"
+    },
+    {
+      "productName": "Cuadros Star Wars",
+      "precio": "3089",
+      "img": "https://i.imgur.com/J9r12yz.jpeg",
+      "descripcion": "Cuadros relacionados a Star wars que le dan un toque distinto a tu hogar",
+      "categoria": "starwars",
+      "id": "qq8j6rr7v52dyvjh088r"
+    },
+    {
+      "productName": "Muñeco de Darth Vader",
+      "precio": "1303",
+      "img": "https://i.imgur.com/N98DoC8.png",
+      "descripcion": "Increíble muñeco de Darth vader que te va emocionar",
+      "categoria": "starwars",
+      "id": "e7o6ievbl6kkojv35z0z"
+    },
+    {
+      "productName": "Llaveros de Star Wars",
+      "precio": "90",
+      "img": "https://i.imgur.com/XaELzoc.jpeg",
+      "descripcion": "Locura de llaveros para tus llaves y tus llaveros llenos de llaves.",
+      "categoria": "starwars",
+      "id": "ah3ahpls744ewqxdd1st"
+    },
+    {
+      "productName": "Mate de Soldado",
+      "precio": "309",
+      "img": "https://i.imgur.com/t1IN1bA.jpeg",
+      "descripcion": "Lujoso mate para tomar tu mate y que quedés dando vuelta la cabeza.",
+      "categoria": "starwars",
+      "id": "8ujvwipaizhiu19077zh"
+    },
+    {
+      "productName": "Soldado tamaño real",
+      "precio": "3209",
+      "img": "https://i.imgur.com/FXfWcty.jpeg",
+      "descripcion": "Unica figura real del soldado mas famoso  de stars wars, una locura",
+      "categoria": "starwars",
+      "id": "izxqywmuq4r1vn3uw3qe"
+    },
+    {
+      "productName": "Vaso de vidrio ",
+      "precio": "209",
+      "img": "https://i.imgur.com/dkyWIjS.png",
+      "descripcion": "Vaso increible tipo choppera para tomar cerveza y cosas terribles.",
+      "categoria": "starwars",
+      "id": "0eapqam1ipkhza0diduw"
+    },
+    {
+      "productName": "Almohada de Soldado",
+      "precio": "3239",
+      "img": "https://i.imgur.com/BevyeWb.png",
+      "descripcion": "Almohada de Soldado color blanco con estampado de soldado que se parece a un casco increible",
+      "categoria": "starwars",
+      "id": "4zqrd71c5omcktxarbu1"
+    },
+    {
+      "productName": "Joystick PS4 Rojo",
+      "precio": "309",
+      "img": "https://i.imgur.com/3itd3rx.jpeg",
+      "descripcion": "Locura de yostin que tiene su color bien ROJO",
+      "categoria": "consolas",
+      "id": "vd6ob9gveyb95a40p1c3"
+    },
+    {
+      "productName": "Joystick ps3 Negro",
+      "precio": "900",
+      "img": "https://i.imgur.com/DS8eXgg.jpeg",
+      "descripcion": "Joystick ps3 Negro que es una locura terrible como anda",
+      "categoria": "consolas",
+      "id": "j4pz6d350ozrbx1u8iun"
+    },
+    {
+      "productName": "Joystick Xbox One",
+      "precio": "2309",
+      "img": "https://i.imgur.com/rGtMEz6.png",
+      "descripcion": "Joystick Xbox One que está increible como funciona",
+      "categoria": "consolas",
+      "id": "c990p19ep39cilteu54l"
+    },
+    {
+      "productName": "Nintendo Switch",
+      "precio": "290",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_947685-MLA52573222441_112022-O.webp",
+      "descripcion": "Nintendo Switch que esta demasiado buena para jugar en el baño",
+      "categoria": "consolas",
+      "id": "0zkq6cermvurkp8h70bh"
+    },
+    {
+      "productName": "Play Station 2",
+      "precio": "309",
+      "img": "https://i.imgur.com/y6xDQIa.png",
+      "descripcion": "Play Station 2 terriblemente buena, vieja pero se la  banca bien",
+      "categoria": "consolas",
+      "id": "6fmf0q5boqzg3q6tfp77"
+    },
+    {
+      "productName": "Play Station 3",
+      "precio": "283",
+      "img": "https://i.imgur.com/Upjy3ky.jpeg",
+      "descripcion": "Play Station 3 con una estética espectacular irreconocible",
+      "categoria": "consolas",
+      "id": "qopas8fp5ddaxd58b9tm"
+    },
+    {
+      "productName": "Play Station 5 ",
+      "precio": "329",
+      "img": "https://i.imgur.com/bfG5jlH.png",
+      "descripcion": "Play Station 5 con un acabado en blanco que está espectacular, no dudes en comprarla",
+      "categoria": "consolas",
+      "id": "zmi75110m6jeo1500v5j"
+    },
+    {
+      "productName": "Joystick ps4 Camuflado",
+      "precio": "234",
+      "img": "https://i.imgur.com/gDkVWzp.jpeg",
+      "descripcion": "Joystick ps4 Camuflado con un color unico y que te va encantar ",
+      "categoria": "consolas",
+      "id": "75kmf3wdj9lye77wvwrt"
+    },
+    {
+      "productName": "Joystick ps5 Negro",
+      "precio": "2342",
+      "img": "https://i.imgur.com/hXUYCzs.jpeg",
+      "descripcion": "Joystick ps5 Negro con una ergonomía terriblemente buena con agarre impresionante.",
+      "categoria": "consolas",
+      "id": "gmwh63j14f7t8moaus2j"
+    },
+    {
+      "productName": "Xbox One White",
+      "precio": "341",
+      "img": "https://i.imgur.com/eBd2fEL.png",
+      "descripcion": "Xbox One White con unos colores perfectos para resaltar en esa mesa que tenes",
+      "categoria": "consolas",
+      "id": "1b1xhe2j5na9no2zf1hy"
+    },
+    {
+      "productName": "Joystick PS4 Negro",
+      "precio": "3424",
+      "img": "https://i.imgur.com/wzcp0gE.jpeg",
+      "descripcion": "Joystick PS4 Negro que se pone de color cuando lo prendes, se ve genial y su tacto es único, yo lo tengo",
+      "categoria": "consolas",
+      "id": "o5ynqjblil4br8qtzmzj"
+    },
+    {
+      "productName": "Auricular HypeZ Rojo",
+      "precio": "2309",
+      "img": "https://i.imgur.com/8ulrtvA.jpeg",
+      "descripcion": "Auricular HypeZ Rojo terrible auricular con alto sonido, que te deja escuchar hasta el minimo paso del juego",
+      "categoria": "diversos",
+      "id": "9pc1pspu3bgf97gi74fl"
+    },
+    {
+      "productName": "Auricular Logitecno",
+      "precio": "3029",
+      "img": "https://i.imgur.com/G0tLTst.jpeg",
+      "descripcion": "Auricular Logitecno que te da alta facha mientras estas jugando.",
+      "categoria": "diversos",
+      "id": "vgtw878uv4bwbvw5qurl"
+    },
+    {
+      "productName": "Teclado HyperZ FPS RGB ",
+      "precio": "2399",
+      "img": "https://i.imgur.com/vXsDYdl.png",
+      "descripcion": "Teclado HyperZ FPS RGB  con buenas luces y tiene altos switches",
+      "categoria": "diversos",
+      "id": "seshr6gm18vjxpuqcewn"
+    },
+    {
+      "productName": "Mouse HyperZ RGB ",
+      "precio": "239",
+      "img": "https://i.imgur.com/1aID0ct.jpeg",
+      "descripcion": "Mouse HyperZ RGB  con luces y sistema rgb que te da mas FPS en los juegos",
+      "categoria": "diversos",
+      "id": "8ogy3ijbwxh5oneo9l7c"
+    },
+    {
+      "productName": "Monitor 24\" 144hz",
+      "precio": "2390",
+      "img": "https://i.imgur.com/lti5iEn.png",
+      "descripcion": "Monitor 24\" 144hz con ultrawide que te dá mas campo de visión y locura",
+      "categoria": "diversos",
+      "id": "to7dla5puxbo1itmv8g6"
+    },
+    {
+      "productName": "Mouse Logitecno",
+      "precio": "3239",
+      "img": "https://i.imgur.com/1FHndIL.jpeg",
+      "descripcion": "Mouse Logitecno que te da mas velocidad en los tiros en juegos FPS o MORPG",
+      "categoria": "diversos",
+      "id": "eeskjc6nsrmotltfqdm6"
+    },
+    {
+      "productName": "Monitor 24\" Azuz 144hz",
+      "precio": "2309",
+      "img": "https://i.imgur.com/OHZqtHy.png",
+      "descripcion": "Monitor 24\" Azuz que tiene tasa de refresco muy alta para disfrutar de jugos con muchos fps y mas fidelidad en la imágen",
+      "categoria": "diversos",
+      "id": "ho7kkxkolo9bkdsccqwq"
+    },
+    {
+      "productName": "Mouse Razox viper mini",
+      "precio": "2309",
+      "img": "https://i.imgur.com/yFAoofO.jpeg",
+      "descripcion": "Mouse Razox viper mini que es chiquito para tener mejor agarre y  mas velocidad",
+      "categoria": "diversos",
+      "id": "iuj1msov78x3c4c4zl5p"
+    },
+    {
+      "productName": "Teclado Logitecno",
+      "precio": "32309",
+      "img": "https://i.imgur.com/POrK9Of.jpeg",
+      "descripcion": "Teclado Logitecno que te da mas velocidad y ganas mas partidas",
+      "categoria": "diversos",
+      "id": "nusa4i1sjm16klfmkt8c"
+    },
+    {
+      "productName": "Auricular con orejas",
+      "precio": "3239",
+      "img": "https://i.imgur.com/wbJX9c3.jpeg",
+      "descripcion": "Auricular con orejas que te da ese toque a Otaku que tanto necesitas para tu dia a dia ",
+      "categoria": "diversos",
+      "id": "bzw2ud1r6qbfo836qzx1"
+    },
+    {
+      "productName": "Pen Drive SanDisko  64gb",
+      "precio": "2500",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_699376-MLA45993737472_052021-F.webp",
+      "descripcion": "Pen Drive  64gb color rojo y negro que te permite almacenar una gran cantidad de datos, y trasladarlo con mucha facilidad.",
+      "categoria": "diversos",
+      "id": "fvy7fqmv6b5ley9hzmvs"
+    },
+    {
+      "productName": "Play Station 4",
+      "precio": "200000",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_649238-MLA47385331667_092021-O.webp",
+      "descripcion": "Play 4 color negra, con 1tb de almacenamiento y soporta todos los juegos actuales en gran calidad.",
+      "categoria": "consolas",
+      "id": "2din2z8hk4qkm9qwrrux"
+    },
+    {
+      "id": "u3nl73h65s6vmhzdcs43",
+      "productName": "Repetidor-Extensor WiFi PT-Link",
+      "precio": "7000",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_619528-MLA48679650394_122021-O.webp",
+      "descripcion": "Repetidor-Extensor WiFi PT-Link, color blanco con alcance efectivo de la señal aprox. 25mts",
+      "categoria": "diversos"
+    },
+    {
+      "id": "ctw92pvn5iwd045nrajw",
+      "productName": "Samsung S20 FE 128gb",
+      "precio": "150000",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_716191-MLA44281674442_122020-O.webp",
+      "descripcion": "Samsung S20 FE 128gb color negro, gran calidad de construcción y muy buena cámara para tomar fotos.",
+      "categoria": "diversos"
+    }
+  ],
+  "users": [
+    {
+      "nombre": "Guillermo Castro",
+      "correo": "admin@admin.com",
+      "password": "admin@admin",
+      "rol": "admin"
+    },
+    {
+      "nombre": "Pedro Rodriguez",
+      "correo": "pedro@gmail.com",
+      "password": "usuariodelapagina",
+      "rol": "user"
+    }
+  ]
+}
