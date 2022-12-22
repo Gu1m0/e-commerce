@@ -1,7 +1,3 @@
-// console.log(nombresTodosProductos);
-
-// nombresTodosProductos.filter(elem=>)
-
 //toma la data en vivo del searcher y filtra por las coincidencias
 const tomarLiveInput = () => {
   let nombresTodosProductos = [];
@@ -24,6 +20,7 @@ const tomarLiveInput = () => {
 
   let inputSearchBar = document.getElementById("searchBar");
   let divSearchBarItems = document.createElement("div");
+
   divSearchBarItems.classList.add("divSearchBarItems");
   searchBar.appendChild(divSearchBarItems);
 
@@ -65,15 +62,11 @@ const tomarLiveInput = () => {
            </div>
          </div>
         `;
-        // console.log(document.querySelectorAll(".item-searchBar"));
         document.querySelectorAll(".item-searchBar").forEach((elem) =>
           elem.addEventListener("click", function clickeo(e) {
-            console.log(e.target.closest("[data-categoria]"));
-            console.log(this.dataset.categoria);
 
             // })
-            window.location.href = `https://gu1m0.github.io/ecomercio2/Pages/Productos/Vista-producto/vista_producto.html?id=${this.id}&categoria=${this.dataset.categoria}`;
-            console.log("el evento fue en =>" + this.id); //this se usa acá para que tome todo el elemento el click, siosi en function() nombrada, no anonima xq con e.target solo trae el elemento, el this, es mas global
+            window.location.href = `https://gu1m0.github.io/ecomercio2/Pages/Productos/Vista-producto/vista_producto.html?id=${this.id}&categoria=${this.dataset.categoria}`; //this se usa acá para que tome todo el elemento el click, siosi en function() nombrada, no anonima xq con e.target solo trae el elemento, el this, es mas global
           })
         );
 
@@ -82,9 +75,7 @@ const tomarLiveInput = () => {
     });
   });
 };
-
 // let mediaQueryTablet = window.matchMedia("(max-width: 760px)");
-
 function clickIconoBuscador() {
   const spanBuscar = document.querySelector(".nav__menu-search span");
   const inputBuscar = document.querySelector(".nav__menu-search input");

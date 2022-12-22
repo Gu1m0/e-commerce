@@ -41,21 +41,16 @@ setTimeout(() => {
     el.addEventListener("click", () => {
       let id = el.parentNode.parentNode.parentNode.id;
       let seccion = el.parentNode.parentNode.parentNode.parentNode.id;
-      console.log(seccion);
       window.location.href = `../Agregar-producto/agregar_producto.html?id=${id}&seccion=${seccion}`;
 
-      // console.log(el.parentNode.parentNode.parentNode.id)
     });
   });
   //al hacer click en el basurero, va eliminar la card actual + un fetch DELETE de la db
   const trasher = document.querySelectorAll(".trasher i");
-  console.log(trasher);
   trasher.forEach((element) =>
     element.addEventListener("click", (e) => {
       let msjEmerg = document.createElement("div");
-      // console.log(e.target);
       let cardToDelete = e.target.parentNode.parentNode.parentNode;
-      console.log("el click fue en", cardToDelete);
       msjEmerg.classList.add("divEmerg");
 
       msjEmerg.innerHTML = `
@@ -65,7 +60,6 @@ setTimeout(() => {
          <button class="btn-cancel">Cancelar</button>
        </div>`;
       cardToDelete.appendChild(msjEmerg);
-      console.log(cardToDelete.id);
 
       const btn_Aceptar = document.querySelectorAll(".btn-accept");
       btn_Aceptar.forEach((el) => {

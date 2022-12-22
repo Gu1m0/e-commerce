@@ -17,15 +17,10 @@ pageLeft.forEach((el, key, array) => {
         cardsContainer[key].scrollLeft - cardsContainer[key].clientWidth,
         0
       );
-      // cardsContainer[key].style.overflow="visible"
       setTimeout(() => {
         array[key].classList.add("pageAnimate");
       }, 10);
       array[key].classList.remove("pageAnimate");
-      setTimeout(() => {
-        // cardsContainer[key].style.overflow="hidden"
-      }, 5000);
-      // console.log(array[key]);
     });
   } else if (key == 1) {
     el.addEventListener("click", () => {
@@ -53,7 +48,6 @@ pageLeft.forEach((el, key, array) => {
 });
 
 pageRight.forEach((el, key, array) => {
-  console.log();
   if (key == 0) {
     el.addEventListener("click", () => {
       cardsContainer[key].scrollTo(
@@ -94,20 +88,17 @@ pageRight.forEach((el, key, array) => {
 const tomarIDUrl = () => {
   const urlConID = new URL(window.location);
   let idParam = urlConID.searchParams.get("id");
-  console.log(idParam);
   return idParam;
 };
 
 //se repite de Agregar producto
 const tomarSeccionUrl = () => {
   const urlConID = new URL(window.location);
-  console.log(urlConID);
   let seccion = urlConID.searchParams.get("categoria");
   return seccion;
 };
 
 const vistaProducto = document.querySelector(".vista-prod");
-console.log(vistaProducto);
 
 //toma la data de la URL y con fetch trae el producto y rellena
 fetch(`https://json-server-db.onrender.com/productos/${tomarIDUrl()}`)
@@ -156,8 +147,7 @@ fetch(`https://json-server-db.onrender.com/productos?categoria=${tomarSeccionUrl
         let categoriaProd = tomarSeccionUrl();
         let idProd = e.target.closest(".card").id;
 
-        window.location.href = `./vista_producto.html?id=${idProd}&categoria=${categoriaProd}`;
-        console.log("el evento fue en =>", this); //this se usa acá para que tome todo el elemento el click, siosi en function() nombrada, no anonima xq con e.target solo trae el elemento, el this, es mas global
+        window.location.href = `./vista_producto.html?id=${idProd}&categoria=${categoriaProd}`;//this se usa acá para que tome todo el elemento el click, siosi en function() nombrada, no anonima xq con e.target solo trae el elemento, el this, es mas global
       })
     );
     });

@@ -8,7 +8,6 @@ const botonForm = document.querySelector(".buttonForm");
 botonForm.addEventListener("click", (e) => {
   const correoInput = document.querySelector(".correoInput").value;
   const passwordInput = document.querySelector(".passwordInput").value;
-  console.log(correoInput, passwordInput);
 
   fetch(
     `https://json-server-db.onrender.com/users?correo=${correoInput}&password=${passwordInput}`

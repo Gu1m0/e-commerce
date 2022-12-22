@@ -9,14 +9,10 @@ const emergente2 = document.getElementById("emergente2");
 const linkVerProducto = () => {
   document.querySelectorAll(".link-producto").forEach((elem) =>
     elem.addEventListener("click", function clickeo(e) {
-      console.log(e.target.closest(".cards-container").id);
-      console.log(e.target.closest(".card").id);
       let categoriaProd = e.target.closest(".cards-container").id;
-      console.log("categoria del product:", categoriaProd);
       let idProd = e.target.closest(".card").id;
 
-      window.location.href = `./Pages/Productos/Vista-producto/vista_producto.html?id=${idProd}&categoria=${categoriaProd}`;
-      console.log("el evento fue en =>", this); //this se usa acá para que tome todo el elemento el click, siosi en function() nombrada, no anonima xq con e.target solo trae el elemento, el this, es mas global
+      window.location.href = `./Pages/Productos/Vista-producto/vista_producto.html?id=${idProd}&categoria=${categoriaProd}`; //this se usa acá para que tome todo el elemento el click, siosi en function() nombrada, no anonima xq con e.target solo trae el elemento, el this, es mas global
     })
   );
 };
@@ -57,7 +53,6 @@ linkVerTodo.forEach((el) => el.addEventListener("click", getElement));
 //crea el "ver todos los productos" en overlay
 function getElement(e) {
   const node = e.target.parentNode.parentNode.parentNode.parentNode;
-  console.log(node);
   const clone = node.cloneNode(true);
 
   let div = document.createElement("div");
@@ -157,7 +152,6 @@ pageLeft.forEach((el, key, array) => {
 });
 
 pageRight.forEach((el, key, array) => {
-  console.log();
   if (key == 0) {
     el.addEventListener("click", () => {
       cardsContainer[key].scrollTo(
@@ -194,105 +188,3 @@ pageRight.forEach((el, key, array) => {
   }
 });
 //--------------------------------------------------------------------------------------------------------------------------
-
-// });
-
-// console.log(nombresTodosProductos);
-
-// nombresTodosProductos.filter(elem=>)
-
-// toma la data en vivo del searcher y filtra por las coincidencias
-
-// const tomarLiveInput = () => {
-//   let nombresTodosProductos = [];
-//   fetch(`http://localhost:3000/productos`)
-//     .then((res) => res.json())
-//     .then((data) => {
-//       data.forEach((el) =>
-//         nombresTodosProductos.push({
-//           id: el.id,
-//           nombre: el.productName,
-//           img: el.img,
-//           categoria: el.categoria,
-//           descripcion: el.descripcion,
-//         })
-//       );
-//     });
-
-//   const searchBar = document.querySelector(".matchSearch");
-//   const loginButton = document.querySelector(".nav__menu-btn");
-
-//   // nombresTodosProductos;
-//   let inputSearchBar = document.getElementById("searchBar");
-//   let divSearchBarItems = document.createElement("div");
-//   divSearchBarItems.classList.add("divSearchBarItems");
-//   searchBar.appendChild(divSearchBarItems);
-
-//   inputSearchBar.addEventListener(
-//     "keydown",
-//     () => (divSearchBarItems.innerHTML = "")
-//   );
-
-//   inputSearchBar.addEventListener("blur", (e) => {
-//     e.target.value = "";
-//     inputSearchBar.style.width = "100%";
-//     setTimeout(() => {
-//       divSearchBarItems.innerHTML = "";
-//       loginButton.classList.remove("invisible");
-//       loginButton.classList.add("visible");
-//     }, 100);
-//   });
-
-//   inputSearchBar.addEventListener("focus", () => {
-//     inputSearchBar.value = "";
-//     inputSearchBar.style.width = "100%";
-
-//     loginButton.classList.remove("visible");
-//     loginButton.classList.add("invisible");
-//   });
-
-//   inputSearchBar.addEventListener("input", (e) => {
-//     nombresTodosProductos.map((el) => {
-//       let elMayus = el.nombre.toUpperCase();
-
-//       let inputValueMayus = e.target.value.toUpperCase();
-//       if (elMayus.includes(inputValueMayus) && e.target.value.length > 0) {
-//         divSearchBarItems.innerHTML += `<div class="item-searchBar" id="${el.id}" data-categoria="${el.categoria}">
-//           <div>
-//            <img src="${el.img}" alt="" width="40" height="40"/>
-//           </div>
-//            <div>
-//             <span>${el.nombre}</span>
-//            </div>
-//          </div>
-//         `;
-//         // console.log(document.querySelectorAll(".item-searchBar"));
-//         document.querySelectorAll(".item-searchBar").forEach((elem) =>
-//           elem.addEventListener("click", function clickeo(e) {
-//             console.log(e.target.closest("[data-categoria]"));
-//             console.log(this.dataset.categoria);
-
-//             // })
-//             window.location.href = `http://localhost:5500/assets/productos/vista-producto/vista_producto.html?id=${this.id}&categoria=${this.dataset.categoria}`;
-//             console.log("el evento fue en =>" + this.id); //this se usa acá para que tome todo el elemento el click, siosi en function() nombrada, no anonima xq con e.target solo trae el elemento, el this, es mas global
-//           })
-//         );
-
-//         console.log(`coincide con ${inputValueMayus}:` + elMayus);
-//       } else if (e.target.value == "") divSearchBarItems.innerHTML = "";
-//     });
-//   });
-// };
-
-// tomarLiveInput();
-
-// let mediaQueryTablet = window.matchMedia("(max-width: 760px)");
-
-// const spanBuscar = document.querySelector(".nav__menu-search span");
-// const inputBuscar = document.querySelector(".nav__menu-search input");
-// const divBusqueda = document.querySelector(".matchSearch");
-
-// spanBuscar.addEventListener("click", () => {
-//   inputBuscar.style.width = "100%";
-//   inputBuscar.focus();
-// });

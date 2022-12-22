@@ -78,7 +78,6 @@ const crearID = (longitud) => {
     hash.push(element);
   }
   hash = hash.join("");
-  // console.log(hash);
 
   return hash;
 };
@@ -87,14 +86,11 @@ const crearID = (longitud) => {
 //tomar URL con el id y seccion + fetch(URL)
 const tomarIDUrl = () => {
   const urlConID = new URL(window.location);
-  console.log(urlConID);
   let idParam = urlConID.searchParams.get("id");
-  console.log(idParam);
   return idParam;
 };
 const tomarSeccionUrl = () => {
   const urlConID = new URL(window.location);
-  console.log(urlConID);
   let seccion = urlConID.searchParams.get("seccion");
   return seccion;
 };
@@ -115,7 +111,6 @@ const llenaDataInput = () => {
       precio.value = data.precio;
       img.value = data.img;
       descripcion.value = data.descripcion;
-      console.log(data.descripcion);
     });
 };
 
@@ -126,7 +121,6 @@ const udpateJson = () => {
   let img = document.querySelector("[data-producto-url]").value;
   let categoria = document.querySelector("[data-select-seccion]").value;
   let descripcion = document.querySelector("[data-producto-descripcion]").value;
-  console.log(categoria);
 
   fetch(`https://json-server-db.onrender.com/productos/${tomarIDUrl()}`, {
     method: "PUT",
@@ -137,7 +131,6 @@ const udpateJson = () => {
 
 if (window.location.href.includes("id=")) {
   //-si viene "id=" en params que el boton updatee producto, no cree
-  
   llenaDataInput();
   const botonForm = document.querySelector("[data-boton-form]");
   botonForm.addEventListener("click", () => {
@@ -148,40 +141,7 @@ if (window.location.href.includes("id=")) {
         "../Editar-producto/editar_producto.html";
     }, 2500);
   });
-  // {
-  // let categoria = document.querySelector("[data-select-seccion]").value;
-  // console.log(categoria);
-
-  // if (categoria == tomarSeccionUrl()) {
-  //---si la categoria y el value son iguales al hacer click button que actualice
-
-  // } else {
-  //   //sino que cree el producto en otra categoria del db.json y borre el de la actual categoria
-  //   let productName = document.querySelector("[data-producto-name]").value;
-  //   let precio = document.querySelector("[data-producto-precio]").value;
-  //   let img = document.querySelector("[data-producto-url]").value;
-  //   let descripcion = document.querySelector(
-  //     "[data-producto-descripcion]"
-  //   ).value;
-  //   fetch(`http://localhost:3000/${categoria}`, {
-  //     method: "POST",
-  //     headers: { "Content-Type": "application/json" },
-  //     body: JSON.stringify({
-  //       id: tomarIDUrl(),
-  //       productName,
-  //       precio,
-  //       img,
-  //       descripcion,
-  //     }),
-  //   }).then(() => {
-  //     fetch(`http://localhost:3000/${tomarSeccionUrl()}/${tomarIDUrl()}`, {
-  //       method: "DELETE",
-  //     });
-  //     window.location.href =
-  //       "http://localhost:5500/Assets/Productos/Editar-producto/editar_producto.html";
-  //   });
-  // }
-  // });
+  
 } else {
 //-sino que cree un producto Nuevo en clck button
 botonAgregarProd.addEventListener("click", (e) => {

@@ -10,9 +10,7 @@
 
 p::selection,
 *:focus-visible:not(input, textarea, div > img) {
-  /* color: #bb2222; */
   background-color: rgba(118, 118, 118, 0.211);
-  /* outline: 2px solid rgba(81, 255, 0, 0.5); */
 }
 
 a:hover {
@@ -37,7 +35,6 @@ body::-webkit-scrollbar-track {
   background-color: rgb(203, 203, 203);
 }
 body::-webkit-scrollbar-thumb {
-  /* background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgb(253, 253, 45) 100%); */
   background: url("Assets/Imgs/23fueg.gif");
   background-position: bottom;
 }
@@ -45,10 +42,6 @@ body::-webkit-scrollbar-thumb {
 .no-scroll {
   overflow: hidden;
 }
-
-/* body::-webkit-scrollbar {
-    width: 11px;
-  } */
 
 nav {
   display: flex;
@@ -98,7 +91,6 @@ nav {
 .search-Y-matchs {
   display: flex;
   order: 2;
-  /* flex-direction: column; */
   position: relative;
   justify-content: center;
   align-items: center;
@@ -108,8 +100,6 @@ nav {
 
 .nav__menu-search {
   display: flex;
-  /* flex-direction: column; */
-  /* align-items: baseline; */
   padding: 8px 16px;
   background: #f5f5f5;
   border-radius: 40px;
@@ -120,16 +110,8 @@ nav {
 
 .matchSearch {
   position: relative;
-
-  /* bottom: -250%; */
-
-  /* left: -50%; */
-  /* top: 80px; */
-
-  /* height: 50px; */
-  max-height: 200px; /* para 2 lineas */
+  max-height: 200px;
   overflow-x: hidden;
-  /* overflow-y: scroll;/*               /*activar este para scroll  */
   width: 100%;
 }
 
@@ -142,19 +124,14 @@ nav {
     rgba(9, 9, 121, 1) 75%,
     rgba(9, 9, 121, 0) 100%
   );
-  /* flex-direction: row; */
   flex-wrap: wrap;
   justify-content: center;
   gap: 5px;
   border-radius: 50px;
-  /* opacity: .3; */
 }
 
 .matchSearch .item-searchBar {
   display: flex;
-  /* width: 100%; */
-  /* height: 45px; */
-  /* justify-content: space-between; */
   gap: 10px;
   align-items: center;
   background-color: rgba(128, 128, 128, 0.774);
@@ -167,7 +144,6 @@ nav {
 }
 
 .matchSearch .item-searchBar span {
-  /* text-align: center; */
   color: rgb(255, 255, 255);
   font-size: 16px;
   border: none;
@@ -176,7 +152,6 @@ nav {
   overflow: hidden;
   text-align: center;
   padding-right: 7px;
-  /* margin: 40px; */
 }
 
 .matchSearch .item-searchBar img {
@@ -270,16 +245,6 @@ header {
   justify-content: center;
   height: 380px;
 }
-
-/* header::before{
-    content: "";
-    position: absolute;
-    width: 100%;height: 100%;
-    background-image: url(Assets/Imgs/Hero.png);
-    background-size: cover;
-    background-position: center;
-    z-index: -10;
-} */
 
 .hero {
   width: 80%;
@@ -390,19 +355,11 @@ article section {
   display: flex;
   gap: 1.8rem;
   flex-wrap: nowrap;
-  /* overflow-y: hidden; */
   scroll-behavior: smooth;
-  /* scroll-snap-type: x mandatory; */
-  /* position: relative; */
   overflow: hidden;
   transform: rotatex(180deg);
   overflow-x: visible;
   height: 275px;
-  /* background-color: rgba(0, 0, 255, 0.102); */
-  /* background:  radial-gradient(circle, rgba(6, 128, 184, 0.5) 0%, rgba(252,117,117,.5) 59%, rgba(130, 0, 244, 0.5) 100%); */
-
-  /* animation: moveLR 2s infinite linear alternate; */
-  /* transform-origin: -10px 10px; */
 }
 
 .productos .pageLeft {
@@ -490,19 +447,11 @@ article section {
   height: 6px;
 }
 
-.cards-container:hover {
-  /* transform: rotatex(180deg); */
-  /* animation: none; */
-}
-
 .cards-container::-webkit-scrollbar-thumb {
-  /* background: linear-gradient(0.25turn, #2a7ae4, #bb2222); */
   background: url(Assets/Imgs/74US.gif);
   background-position: center;
-  /* background-repeat: no-repeat; */
   background-size: center;
   object-fit: cover;
-
   border-radius: 100%;
 }
 
@@ -517,7 +466,6 @@ article section {
   justify-content: space-between;
 
   padding-top: 15px;
-  /* scroll-snap-align: start;  */
   transform: rotatex(180deg);
   height: 100%;
   width: 180px;
@@ -538,8 +486,6 @@ article section {
 }
 
 .card:hover {
-  /* scale: 1.05;
-  outline: 1px solid rgba(0, 0, 0, 0.34); */
 }
 
 .card .img-name {
@@ -560,11 +506,6 @@ article section {
 }
 
 .p-productName {
-  /* display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  line-clamp: 3; */
-
   overflow: hidden;
   font-family: "Raleway";
   font-style: normal;
@@ -594,12 +535,6 @@ article section {
 
 .card a:hover {
   text-decoration: underline 2px rgb(0, 0, 255);
-}
-
-.card img:hover {
-  /* scale: 1.05; */
-  /* box-shadow: 3px -2px 1px black; */
-  /* outline: 2px solid black; */
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -803,7 +738,6 @@ form div:nth-child(4) button {
 
 form div button {
   transition: all 0.2s ease-in-out;
-  /* transform: rotate(30deg); transform-origin: 100% 100%; */
 }
 
 form div button:hover {
@@ -858,7 +792,6 @@ footer div marquee {
   width: 100%;
   height: 100%;
   padding: 50px 0px 30px 15px;
-  /* background-color: rgb(0, 0, 0); */
   background: linear-gradient(
     0deg,
     rgba(88, 118, 119, 1) 0%,
@@ -867,14 +800,9 @@ footer div marquee {
     rgba(136, 66, 77, 1) 100%
   );
   top: 150%;
-  /* left: 50%; */
-  /* padding-left: 10px; */
-  /* transform: translate(-50%, -50%); */
   z-index: 1000;
   opacity: 0;
-  /* scale: .4; */
   animation: opacity 1s 1 ease-out forwards;
-  /* transform: rotatex(180deg); */
 }
 
 .emergente > span {
@@ -891,7 +819,6 @@ footer div marquee {
   position: absolute;
   background-color: rgba(255, 0, 0, 0.754);
   border-radius: 100%;
-  /* left: 50%; */
   top: 2%;
 }
 
@@ -901,11 +828,6 @@ footer div marquee {
 }
 
 .emergente .productos {
-  /* display: flex;
-  justify-content: center; */
-  /* position: absolute; */
-  /* top: 15%; */
-  /* left: 1%; */
   width: 100%;
   height: 100%;
 }
@@ -918,11 +840,8 @@ footer div marquee {
   display: flex;
   flex-wrap: wrap;
   overflow-y: visible;
-  /* overflow-y: hidden; */
   overflow-x: hidden;
   transform: rotatex(0deg);
-  /* width: 80%; */
-  /* padding-left: 20px; */
   height: 100%;
 }
 
@@ -934,7 +853,6 @@ footer div marquee {
   transform: rotateX(0deg);
   height: auto;
   max-height: 250px;
-  /* width: 100%; */
 }
 
 
@@ -943,7 +861,6 @@ footer div marquee {
   display: flex;
   width: 100vw;
   height: 100vh;
-  /* background-color: rgb(0, 0, 0); */
   background: linear-gradient(
     0deg,
     rgba(88, 118, 119, 1) 0%,
@@ -951,15 +868,8 @@ footer div marquee {
     rgba(0, 0, 0, 1) 50%,
     rgba(136, 66, 77, 1) 100%
   );
-  /* left: 50%; */
-  /* box-sizing:unset; */
   padding-left: 10px;
-  /* transform: translate(-50%, -50%); */
   z-index: 1000;
-  /* opacity: 1; */
-  /* scale: .4; */
-  /* animation: opacity 0.5s 1 ease-out forwards; */
-  /* transform: rotatex(180deg); */
 }
 
 .emergente h2,
@@ -974,7 +884,6 @@ footer div marquee {
 @keyframes opacity {
   100% {
     opacity: 1;
-    /* scale: 1; */
     top: 0%;
   }
 }
@@ -1086,8 +995,6 @@ footer div marquee {
   }
 
   .emergente .cardC-cambio {
-    /* transform: rotateX(0deg); */
-    /* height: 50%; */
     width: 125px;
   }
 
