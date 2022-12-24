@@ -19,7 +19,7 @@ const linkVerProducto = () => {
 
 //carga a cada card por section la data-------
 cardsContainer.forEach((elem) => {
-  fetch(`https://json-server-db.onrender.com/productos?categoria=${elem.id}`)
+  fetch(`https://json-server-db2.onrender.com/productos?categoria=${elem.id}`)
     .then((response) => response.json())
     .then((data) => {
       data.forEach((el) => {

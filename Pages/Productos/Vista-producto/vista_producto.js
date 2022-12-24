@@ -101,7 +101,7 @@ const tomarSeccionUrl = () => {
 const vistaProducto = document.querySelector(".vista-prod");
 
 //toma la data de la URL y con fetch trae el producto y rellena
-fetch(`https://json-server-db.onrender.com/productos/${tomarIDUrl()}`)
+fetch(`https://json-server-db2.onrender.com/productos/${tomarIDUrl()}`)
   .then((res) => res.json())
   .then(
     (data) =>
@@ -122,7 +122,7 @@ fetch(`https://json-server-db.onrender.com/productos/${tomarIDUrl()}`)
   );
 //llena la data relacionada a la seccion en "productos relacionados"
 let cardsContainer2 = document.querySelector(".cards-container");
-fetch(`https://json-server-db.onrender.com/productos?categoria=${tomarSeccionUrl()}`)
+fetch(`https://json-server-db2.onrender.com/productos?categoria=${tomarSeccionUrl()}`)
   .then((res) => res.json())
   .then((data) => {
     data.forEach((el) => {

@@ -325,6 +325,12 @@
       "correo": "pedro@gmail.com",
       "password": "usuariodelapagina",
       "rol": "user"
+    },
+    {
+      "nombre": "Anibal Naco",
+      "correo": "anibal@gmail.com",
+      "password": "papadepipo",
+      "rol": "user"
     }
   ]
 }
